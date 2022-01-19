@@ -1,0 +1,55 @@
+html{
+    background-color: rgb(231, 226, 226);
+    text-align: center;
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    
+}
+
+table{
+    table-layout: fixed;
+    width: 50%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+caption {
+    font-family: 'Rock Salt', cursive;
+    font-style: italic;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+th, td {
+    padding: 10px;
+  }
+
+  thead th, tfoot th {
+    font-family: 'Rock Salt', cursive;
+  }
+  
+  th {
+    letter-spacing: 2px;
+    border: 2px solid black;
+    
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    color: white;
+  }
+  
+  td {
+    letter-spacing: 1px;
+    border: 2px solid black;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
